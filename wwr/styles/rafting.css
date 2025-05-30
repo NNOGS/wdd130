@@ -7,8 +7,8 @@
     --body-fonts: sans-serif;
 }
 header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
+    background-color: 5A74AC;
+    color: 7FD143;
 }
 * {
     margin: 0;
@@ -36,6 +36,7 @@ nav, p, section, article {
 }
 .hero {
     position: relative;
+    margin: 10px auto;
 }
 .hero img {
     display: block;
@@ -54,5 +55,39 @@ h1 {
 }
 .hero article img {
     float: right;
-    width: 125px;
+    width: 80px;
+    height: auto;
+    margin-left: 16px;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-box: center;
+    background-color: var(--primary-color);
+
+}
+nav a {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+}
+section img {
+    display: grid;
+    grid-template-areas: 120px 1fr 1fr 1fr 1fr 1fr;
+    width: 20px; 
+}
+. socialmedia {
+    display: grid;
+    grid-auto-flow: right;
+    align-items: right
+    margin-top: 16px;
+}
+article p{
+    margin-left: 0;
+    margin-right: 16px;
 }
