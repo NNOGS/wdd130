@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obinna Njoku | WDD 130 | Poll Form</title>
+    <meta name="description" content="NNOGS Poll Form">
+    <meta name="author" content="Obinna Godswill Sosthenes Njoku">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Obinna Njoku | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+             <fieldset>
+                <legend>Contact Information</legend>
+                <label>Full Name: <input type="text" name="fullname"></label>
+                <label>Email: <input type="email" name="useremail"></label>
+             </fieldset>
+             <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite internet browser?</label>
+                <select id="browser" name="browser">
+                    <option value="chrome">Google Chrome</option>
+                    <option value="firefox">Mozilla Firefox</option>
+                    <option value="safari">Apple Safari</option>
+                    <option value="edge">Microsoft Edge</option>
+                    <option value="other">Other</option>
+                    </select>
+                    <label for="pets">Do you have a household pets?</label>
+                    <input type="checkbox" id="pet" name="pets">
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+             </fieldset>
+             <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+       <p></p> &copy; 2025 | HTML Form - User Poll Activity | Obinna Godswill Sosthenes Njoku</p>
+    </footer>
+</body>
+</html>
