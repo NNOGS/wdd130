@@ -23,6 +23,12 @@ header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
+* figure img {
+    display: grid;
+    grid-area: 1fr 1fr 1fr 1fr 1fr;
+    width: 80px;
+    height: auto;
+}
 h1, h2 {
     font-family: var(--heading-fonts);
     color: var(--primary-color);
@@ -53,6 +59,17 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
 }
+article {
+     position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+
+}
 .hero article img {
     float: right;
     width: 80px;
@@ -77,11 +94,12 @@ nav a {
     text-decoration: none;
 }
 section img {
+    width: 100px; height: auto;
     display: grid;
     grid-template-areas: 120px 1fr 1fr 1fr 1fr 1fr;
-    width: 20px; 
+    
 }
-. socialmedia {
+.socialmedia img {
     display: grid;
     grid-auto-flow: right;
     align-items: right
