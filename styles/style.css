@@ -5,7 +5,9 @@
   --padding: 1rem;
 }
 
-header, .grid, footer {
+header,
+.grid,
+footer {
   max-width: 840px;
   margin: 0 auto;
 }
@@ -54,7 +56,7 @@ p {
 aside {
   width: 20rem;
   margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.2); 
+  border: 1px solid rgba(0, 0, 0, 0.2);
   padding: var(--padding);
   background-color: #eee;
   color: #333;
@@ -63,22 +65,25 @@ aside {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
+
 aside.box {
   position: relative;
   text-align: center;
 }
+
 aside.box img {
   width: 80%;
   height: auto;
   align-items: center;
 }
+
 aside.box h2 {
   position: absolute;
   top: 50px;
   left: 50%;
   transform: translateX(-50%);
   font-size: large;
-  color:#333;
+  color: #333;
 }
 
 main img {
@@ -103,7 +108,8 @@ footer {
 /* class selectors */
 .box {
   margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.1); /* ✅ same as rgb(0 0 0 / 10%) but clearer */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* ✅ same as rgb(0 0 0 / 10%) but clearer */
   padding: var(--padding);
   background-color: #ddd;
   color: #000;
