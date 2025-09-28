@@ -42,7 +42,7 @@ h1 {
 img {
   width: 150px;
   height: auto;
-  border: seashell;
+  border: 2px solid seashell;
   padding: 2px;
   box-shadow: 0 0 30px grey;
 }
@@ -62,6 +62,23 @@ aside {
   position: relative;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
+}
+aside.box {
+  position: relative;
+  text-align: center;
+}
+aside.box img {
+  width: 80%;
+  height: auto;
+  align-items: center;
+}
+aside.box h2 {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: large;
+  color:#333;
 }
 
 main img {
