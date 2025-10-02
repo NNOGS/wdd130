@@ -29,7 +29,7 @@ form {
 
 fieldset {
     display: grid;
-    grid-gap: 0.5rem;
+    grid-gap: 0.1rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
@@ -49,11 +49,6 @@ textarea {
     font-family: Roboto, Arial, sans-serif;
 }
 
-label {
-    text-align: right;
-    padding-right: 1rem;
-}
-
 input,
 select,
 textarea {
@@ -61,47 +56,26 @@ textarea {
     font-size: 1.1rem;
 }
 
-input[type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    vertical-align: bottom;
+.pad legend {
+    background-color: black;
+    color: white;
+    width: 300px;
+    margin-left: 9rem;
+    
 }
-
 button {
-    margin: 1rem;
+    margin-top: .9rem;
+    margin-left: 3.5rem;
     background-color: navy;
     color: #fff;
     border: none;
     border-radius: 0.5rem;
-    padding: .75rem;
+    padding: .85em;
     font-size: 1.2rem;
-    width: 150px;
+    width: 500px;
     
 }
 
 button:hover {
     background-color: darkgreen;
-}
-
-footer {
-    margin: 1rem auto 0;
-    width: 650px;
-    text-align: center;
-    font-size: 0.8em;
-    color: #777;
-    border-top: 1px solid #ccc;
-}
-
-.form-item {
-    display: grid;
-    align-items: center;
-}
-
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-}
-
-.column2 {
-    grid-template-columns: 1fr 2fr;
 }
