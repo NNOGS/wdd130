@@ -7,49 +7,43 @@
     <meta name="description" content="Obinna Njoku's BYU Idaho WDD 130 form page">
     <meta name="author" content="Obinna Godswill Sosthenes Njoku">
     <link rel="stylesheet" href="styles/quiz.css">
+    <title>Form for Basic HTML and CSS Quiz</title>
 </head>
 
 <body>
     <header>
-        <h1>Basic HTML and CSS Quiz</h1>
+        <h1> ✔  Basic HTML and CSS Quiz</h1>
     </header>
 
     <main>
-        <fieldset>
         <form>
-            <legend>1. What does the acronym CSS stand for?</legend>
-            <label for="q1">Answer</label>
+        <fieldset>
+            <legend>Quiz Questions as Follows</legend>
+            <label for="q1">1. What does the acronym CSS stand for?</label>
             <input type="text" id="q1" name="q1">
 
-            <legend>2. How are id and class attribute selected in CSS?</legend>
-            <label for="q2">Answer</label>
+        
+            <label for="q2">2. How are id and class attribute selected in CSS?</label>
             <textarea id="q2" name="q2"></textarea>
 
-            <legend>3. Which of the following is a valid CSS comment?</legend>
-                <label for="q3">Choose one</label>
+            
+                <label for="q3">3. Which of the following is a valid CSS comment?</label>
                 <select id="q3" name="q3">
-                    <option value="chrome">#......</option>
-                    <option value="firefox">!.......</option>
-                    <option value="safari">/*.......*/</option>
-                    <option value="edge">All of the above</option>
-                    <option value="brave">Non of the above</optiion>
-                    <option value="other">......../></option>
+                    <option value="" selected disabled>Choose one...</option>
+                    <option value="a"> A. !.......</option>
+                    <option value="b"> B. /*.......*/</option>
+                    <option value="c"> C. All of the above</option>
+                    <option value="d"> D. None of the above</option>
                 </select>
               
-            <legend>4. What's the bottom margin given this declaration below?</legend>
-            <div class="pad">
-            <legend> margin: 10px 5px 15px;</legend>
-            </div>
-            <label for="q4">Answer</label>
+            
+            <label for="q4">4. What's the bottom margin given this declaration below?</label>
+            <code>margin: 10px 5px 15px;</code>
             <input type="number" id="q4" name="q4">
 
-            <button type="sumit">Submit Quiz</button>
+            <button type="submit">Submit Quiz</button>
+            </fieldset>
          </form>
-
-         
-
-        </fieldset>
-        
     </main>
 </body>
 </html>

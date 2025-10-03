@@ -7,7 +7,8 @@
 
 header {
     margin: 0 auto;
-    width: 650px;
+    max-width: 650px;
+    width: 100%;
 }
 
 h1 {
@@ -18,19 +19,21 @@ h1 {
 }
 
 form {
-    width: 650px;
+    max-width: 450px;
+    width: 100%;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
+    align-content: center;
 }
 
 fieldset {
     display: grid;
-    grid-gap: 0.1rem;
-    margin: 1rem;
+    gap: 0.3rem;
+    margin: 1rem 0;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
 }
@@ -54,28 +57,33 @@ select,
 textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
+    max-width: 400px;
+    width: 100%;
 }
 
-.pad legend {
+code {
     background-color: black;
     color: white;
-    width: 300px;
-    margin-left: 9rem;
-    
+    max-width: 300px;
+    width: 100%;
+    padding: .5rem;
+    margin: .5rem 0;
+    display: block;
 }
+
 button {
     margin-top: .9rem;
-    margin-left: 3.5rem;
     background-color: navy;
     color: #fff;
     border: none;
     border-radius: 0.5rem;
     padding: .85em;
     font-size: 1.2rem;
-    width: 500px;
-    
+    max-width: 400px;
+    width: 100%;
+    display: block;
 }
 
 button:hover {
-    background-color: darkgreen;
+    background-color: #006400; /* lighter dark green for better contrast */
 }
