@@ -177,6 +177,190 @@ h2 {
   border-radius: 6px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  width: 80%;
+  max-width: 1000px;
+}
+#control {
+  max-width: 840px;
+}
+
+/* Top info */
+.contact1 {
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+#together {
+ display: flex;
+ -ms-flex-item-align: auto;
+ width: 840px;
+}
+
+/* Map section */
+
+
+.contact2 img {
+  width: 100%;
+  height: 400px;
+  margin-left: 0;
+  margin-right: 20px;
+  max-width: 400px;
+  border-radius: 6px;
+}
+
+.contact2 figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.3rem;
+}
+
+/* Form section */
+.contact3 {
+  height: 400px;
+  margin-left: 20px;
+  width: 350px;
+  
+}
+
+
+
+/* Form item: label + input/textarea */
+.contact3 .form-item {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 5px;
+}
+
+.contact3 .form-item label {
+  flex: 0 0 30%;
+  font-weight: 600;
+  text-align: left;
+}
+
+.contact3 .form-item-column2 {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 10px;
+}
+
+.contact3 .form-item-column2 label {
+  flex: 0 0 30%;
+  font-weight: 600;
+  text-align: left;
+}
+
+ .radio-group  {
+  display: grid;
+  grid-template-columns: 1fr 2fr ;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.radio-group1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
+}
+
+.contact3 .feedback textarea {
+  height: 100px;
+  width: 300px;
+  align-items: block;
+  margin-bottom: 10px;
+  margin-left: 0;
+
+}
+
+
+
+.contact3 legend {
+  font-weight: bold;
+  margin-bottom: 0.9rem;
+  
+}
+
+
+
+
+
+/* === CHECKBOX SECTION === */
+
+.checkbox-group {
+  display: flex;
+  text-align: end;   
+  font-size: small;  
+  gap: 0.5rem;/* Vertically centers checkbox & text */
+
+        
+     /* Small space between checkbox and text */
+}
+
+
+/* === BUTTON === */
+.contact3 button {
+  align-items: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 300px;
+  padding: 0.7rem;
+  background-color: var(--primary-color);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--accent3-color);
+}
+
+
+.contact3 button:hover {
+  background-color: #ddd;
+}
+
+/* Bottom employee section */
+.contact4 {
+  max-width: 840px;
+  margin-bottom: 0;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.contact4 h2 {
+  margin-bottom: 1rem;
+  width: 840px;
+}
+
+.contact4 figure {
+  display: inline-block;
+  margin: 0 1rem;
+  gap: 3rem;
+}
+
+.contact4 img {
+  width: 150px;
+  height: 150px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  
+}
+
+.contact4 figcaption {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
 /* Footer */
 footer {
   max-width: 840px;
